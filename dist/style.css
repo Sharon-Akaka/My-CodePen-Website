@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+}
+
+li, #header-img {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  position: fixed;
+}
+
+@media (max-width:350px) 
+{header { flex-wrap: wrap:}
+}
+
+#header-img {
+  cursor: pointer;
+   max-width: 500px;
+  height: 100px;
+  order: 1;
+  margin-right: auto;
+}
+nav {
+   order: 2;
+box-shadow: 0 3px 3px rgba(0, 0, 0, 0.0);
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 50;
+  right: 0;
+}
+
+.nav-link {
+ list-style: none
+   margin: 0 15px;
+}
+
+.nav-link li { 
+  transition: all 0.3s ease 0s;
+  display: inline-block;
+  padding: 0px 20px
+}
+
+.nav-link li:hover {
+  color: #01B5A3;
+}
+
+
+body{
+  margin: 0;
+  padding:0;
+font-family: 'Roboto', sans-serif;
+  background-color: #01B5A3;
+   text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.btn {
+height: 50px; 
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px; 
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px	#A9A9A9;
+  display: inline-block;
+  position: relative;
+ transition: all 0.1s ease;
+}
+
+#btn:active {
+  transform: translate(5px, 5px);
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.feature {
+  background: white;
+  border-radius: 10px;
+  margin: 0 1.66%;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 18px;
+  margin-top: 5px;
+   font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.feature p {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+
+#video{
+  padding: 20px;
+  border: none;
+}
+
+form input[type="email"] {
+  border-radius: 5px;
+  border: 0;
+  color: black;
+  display: inline-block;
+  font-size: 14px;
+  flex: 1;
+  padding: 10px 25px;
+  margin-right: 10px;
+}
+
+#submit{
+    width: 100px;
+}
+
+footer {
+  background-color: white;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+footer li {
+   transition: all 0.3s ease 0s;
+  display: inline-block;
+  padding: 0px 20px
+}
